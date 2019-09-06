@@ -30,5 +30,7 @@ public class SimpleCalculator {
         System.out.println("Your total is: " + total);
         total = entry1 * entry2;
         System.out.println(entry1 + " X " + entry2 +" = " + total);
+        total = entry1 / entry2;
+        System.out.println(entry1 + "/" + entry2 + " = " + total);
     }
 }
